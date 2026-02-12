@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: #00A7E1;
+    --primary-color: #2087A6;
     --text-color: black;
 }
 html {
@@ -14,8 +14,8 @@ html {
 }
 body{
     font-family: Roboto+Flex, Arial;
-    background-color: #EBEBEB;
-    color: white;
+    background-color: #FDDFBD;
+    color: #552424;
 }
 /* common styles */
  img {
@@ -60,7 +60,7 @@ body{
     max-width: 250px;
  }
  .profile_name_first{
-    color: #FFA630;
+    color: #822E2E;
     font-weight: 200;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
