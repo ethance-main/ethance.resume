@@ -4,84 +4,80 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto+Flex, Arial;
 }
-:root{
-    --primary-color: #E37660;
-    --text-color: #575555;
-}
-html {
-    font-size: 10px;
-}
+
 body{
     font-family: Roboto+Flex, Arial;
-    background-color: #F2DDBD;
-    color: #EEA068;
-}
-/* common styles */
- img {
-    width: 100%
- }
- a {
-    text-decoration: none;
-    color: white;
- }
-.description{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--text-color)
+    background-color: #ffffff;
+    color: #333;
 }
  /* layouts */
- .container {
-    max-width: 1000 px;
-    width: 90%;
-    margin: 0 auto;
-    display: gird;
-    padding: 5rem;
-    background: #efefe5;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
- }
+.container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  background: white;
+  overflow: hidden;
+}
+/* Sidebar */
+.sidebar {
+  background-color: #D4D1BB;
+  color: white;
+  padding: 30px;
+}
+.firstName{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #554C69;
+    margin-bottom: -.75rem;
+}
+.lastName{
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #B8662E;
+    display: grid;
+    place-items: center;
+}
+.sidebar h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
 
- @media only screen and (max-width: 768px){
-    .container{
-        width: 100%;
-        grid-template-columns: 1fr;
-        padding: 3rem;
-        gap: 7rem;
-    }
- }
- .profile{
-    grid-column: 1 / -1;
-    margin-bottom: 2rem;
- }
+.sidebar h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #9ca3af;
+}
 
- /* profile */
- .profile_container{
-    display: flex;
-    gap: 2rem;
- }
- .profile_profileImg{
-    max-width: 250px;
- }
- .profile_name_first{
-    color: #8C8F8F;
-    font-weight: 200;
-    font-size: clamp(2rem, 8vw, 4rem);
-    text-transform: uppercase;
-    display: block;
-    margin-bottom: -0.8rem;
- }
-  .profile_name_last{
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: clamp(2.5rem, 15vw, 7rem);
-    text-transform: uppercase;
-    display: block;
- }
- .profile_title{
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
- }
- 
+.sidebar section {
+  margin-bottom: 30px;
+}
+
+.sidebar h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #92B0AC;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+@media(max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    text-align: center;
+  }
+}
