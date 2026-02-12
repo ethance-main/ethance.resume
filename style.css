@@ -6,16 +6,16 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color: #2087A6;
-    --text-color: black;
+    --primary-color: #E37660;
+    --text-color: #575555;
 }
 html {
     font-size: 10px;
 }
 body{
     font-family: Roboto+Flex, Arial;
-    background-color: #FDDFBD;
-    color: #552424;
+    background-color: #F2DDBD;
+    color: #EEA068;
 }
 /* common styles */
  img {
@@ -25,7 +25,12 @@ body{
     text-decoration: none;
     color: white;
  }
-
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color)
+}
  /* layouts */
  .container {
     max-width: 1000 px;
@@ -33,7 +38,7 @@ body{
     margin: 0 auto;
     display: gird;
     padding: 5rem;
-    background: #EBEBEB;
+    background: #efefe5;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
  }
@@ -60,7 +65,7 @@ body{
     max-width: 250px;
  }
  .profile_name_first{
-    color: #822E2E;
+    color: #8C8F8F;
     font-weight: 200;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
