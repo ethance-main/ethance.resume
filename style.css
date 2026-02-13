@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Roboto+Flex, Arial;
+    font-family: 'Roboto Flex', Arial;
 }
 
 body{
@@ -14,7 +14,6 @@ body{
 }
  /* layouts */
 .container {
-  max-width: 1000px;
   display: grid;
   grid-template-columns: 300px 1fr;
   background: white;
@@ -22,7 +21,7 @@ body{
 }
 /* Sidebar */
 .sidebar {
-  background-color: #D4D1BB;
+  background-color: #6076AB;
   color: white;
   padding: 30px;
 }
@@ -30,14 +29,14 @@ body{
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: #554C69;
+    color: #C49DB3;
     margin-bottom: -.75rem;
 }
 .lastName{
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: #B8662E;
+    color: #E6CBA6;
     display: grid;
     place-items: center;
 }
@@ -50,7 +49,7 @@ body{
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 25px;
-  color: #9ca3af;
+  color: #E6CBA6;
 }
 
 .sidebar section {
@@ -62,7 +61,7 @@ body{
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #92B0AC;
+  color: #87CCC5;
 }
 
 .sidebar ul {
@@ -84,11 +83,11 @@ body{
 }
 
 .main_body{
-  background-color: paleturquoise;
+  background-color: #F2DDBD;
 }
 .masterhead{
   color: white;
-  background-image: url(/imgs/paperback.jpg);
+  background: #C49DB3;
   padding:50px;
 }
 .masterhead h1{
@@ -99,11 +98,39 @@ body{
   text-shadow: 2px 2px 2px #333;
 
 }
-
 .masterhead h2{
   font-size: 1.5rem;
   font-weight: 100;
   text-align: center;
   text-shadow: 2px 2px 2px #333;
-
 }
+.main_body section{
+  text-align: center;
+  padding: 5px;
+  
+}
+.main_body section h2{
+  color: white;
+}
+
+.About{
+  padding: 2rem;
+  background: #7E8FA6;
+  border-radius: 25px;
+}
+.Experience{
+  padding: 2rem;
+  background: #92B0AC;
+  border-radius: 25px;
+}
+.Courses{
+  padding: 2rem;
+  background: #F0CE8B;
+  border-radius: 25px;
+}
+.Projects{
+  padding: 2rem;
+  background: #BD6B4D;
+  border-radius: 25px;
+}
+
