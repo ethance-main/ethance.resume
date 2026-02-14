@@ -21,7 +21,7 @@ body{
 }
 /* Sidebar */
 .sidebar {
-  background-color: #6076AB;
+  background-color: #719081;
   color: white;
   padding: 30px;
 }
@@ -29,14 +29,14 @@ body{
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: #C49DB3;
+    color: #815a52;
     margin-bottom: -.75rem;
 }
 .lastName{
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: #E6CBA6;
+    color: #c9a978;
     display: grid;
     place-items: center;
 }
@@ -83,11 +83,11 @@ body{
 }
 
 .main_body{
-  background-color: #F2DDBD;
+  background-color: #cfbfaa;
 }
 .masterhead{
   color: white;
-  background: #C49DB3;
+  background: #A89780;
   padding:50px;
 }
 .masterhead h1{
@@ -115,22 +115,22 @@ body{
 
 .About{
   padding: 2rem;
-  background: #7E8FA6;
+  background: #789793;
   border-radius: 25px;
 }
 .Experience{
   padding: 2rem;
-  background: #92B0AC;
+  background: #c9A978;
   border-radius: 25px;
 }
 .Courses{
   padding: 2rem;
-  background: #F0CE8B;
+  background: #A27754;
   border-radius: 25px;
 }
 .Projects{
   padding: 2rem;
-  background: #BD6B4D;
+  background: #815A52;
   border-radius: 25px;
 }
 
