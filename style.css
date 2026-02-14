@@ -116,7 +116,7 @@ body{
     text-align: center;
   }
 }
-
+/*Front Page Main Body*/
 .main_body{
   background-color: #cfbfaa;
 }
@@ -171,4 +171,25 @@ body{
   background: #8f6259;
   border-radius: 25px;
 }
+
+/*Experience Page Main Body*/
+.timeline-wrapper{
+  display:grid;
+  padding: 1rem;
+  background-color: white;
+}
+.timeline-box{
+  padding:1rem;
+  background-color: #c9a978;
+  margin:1rem;
+  border-radius: 25px;
+}
+.timeline-col{
+  border-left: 5px solid #c9a978;
+}
+
+
+
+
+
 
