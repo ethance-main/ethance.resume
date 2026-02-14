@@ -19,18 +19,54 @@ body{
   overflow: hidden;
 }
 /* Sidebar */
-.sidebar {
+#main_sidebar {
   background-color: #719081;
   color: white;
   padding: 30px;
 }
-.firstName{
+#project_sidebar{
+  background-color: #8f6259;
+  color: white;
+  padding: 30px;
+}
+#experience_sidebar{
+  background-color: #c9A978;
+  color: white;
+  padding: 30px;
+}
+#course_sidebar{
+  background-color: #A27754;
+  color: white;
+  padding: 30px;
+}
+#about_sidebar{
+  background-color: #789793;
+  color: white;
+  padding: 30px;
+}
+.firstName_main{
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #815a52;
     margin-bottom: -.75rem;
 }
+.firstName_proj{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c9a978;
+    margin-bottom: -.75rem;
+}
+.lastName_experience{
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #815a52;
+  display: grid;
+  place-items: center;
+}
+
 .lastName{
     font-size: 3rem;
     font-weight: 800;
@@ -112,7 +148,7 @@ body{
   color: white;
 }
 .main_body section p{
-  color: #E8DECF;
+  color: #413A2F;
 }
 
 .About{
