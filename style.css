@@ -10,7 +10,6 @@
 body{
     font-family: Roboto+Flex, Arial;
     background-color: #ffffff;
-    color: #333;
 }
  /* layouts */
 .container {
@@ -112,6 +111,9 @@ body{
 .main_body section h2{
   color: white;
 }
+.main_body section p{
+  color: #E8DECF;
+}
 
 .About{
   padding: 2rem;
@@ -130,7 +132,7 @@ body{
 }
 .Projects{
   padding: 2rem;
-  background: #815A52;
+  background: #8f6259;
   border-radius: 25px;
 }
 
