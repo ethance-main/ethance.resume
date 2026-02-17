@@ -152,22 +152,23 @@ body{
 }
 
 .About{
-  padding: 2rem;
+  padding: 3rem;
   background: #789793;
   border-radius: 25px;
+  
 }
 .Experience{
-  padding: 2rem;
+  padding: 3rem;
   background: #c9A978;
   border-radius: 25px;
 }
 .Courses{
-  padding: 2rem;
+  padding: 3rem;
   background: #A27754;
   border-radius: 25px;
 }
 .Projects{
-  padding: 2rem;
+  padding: 3rem;
   background: #8f6259;
   border-radius: 25px;
 }
