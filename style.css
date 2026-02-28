@@ -177,20 +177,35 @@ body{
 .timeline-wrapper{
   display:grid;
   padding: 1rem;
-  background-color: white;
+  background-color: #e9dbc5;
+  color: #2E1D0C
 }
 .timeline-box{
   padding:1rem;
   background-color: #c9a978;
   margin:1rem;
   border-radius: 25px;
+  color: #2E1D0C;
 }
 .timeline-col{
   border-left: 5px solid #c9a978;
 }
 
+#job1{
+  background-color: #D2B37D;
+}
 
+#job2{
+  background-color: #c09557;
+}
 
+#job3{
+  background-color: #b3814E;
+}
+
+#job4{
+  background-color: #A16F41;
+}
 
 
 
