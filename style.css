@@ -207,5 +207,21 @@ body{
   background-color: #A16F41;
 }
 
+.poq{
+  padding:2rem;
+  background-color: #c9a978;
+  margin:1rem;
+  margin-left:3rem;
+  margin-right:3rem;
+  border-radius: 50px;
+  color: #2E1D0C;
+}
+
+#poq1{
+  background-color: #b3814E;
+}
+#poq2{
+  background-color: #A16F41;
+}
 
 
