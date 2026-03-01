@@ -224,4 +224,24 @@ body{
   background-color: #A16F41;
 }
 
+/*Courses Page Main Body*/
+.course_body{
+  display:grid;
+  padding: 1rem;
+  background-color: #e9dbc5;
+  color: #2E1D0C
+}
+.course_box{
+  padding:1rem;
+  background: yellow;
+  margin-bottom: 2rem;
+}
+
+.class{
+  padding:1rem;
+  background-color: orange;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius:10px;
+}
 
