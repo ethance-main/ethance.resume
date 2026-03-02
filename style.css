@@ -6,7 +6,19 @@
     box-sizing: border-box;
     font-family: 'Roboto Flex', Arial;
 }
-
+a, a:visited, a:hover, a:active {
+        color: inherit;
+}
+summary{
+  list-style: none;
+  cursor: pointer;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::marker {
+  display: none;
+}
 body{
     font-family: Roboto+Flex, Arial;
     background-color: #ffffff;
@@ -235,13 +247,28 @@ body{
   padding:1rem;
   background: yellow;
   margin-bottom: 2rem;
+  border-radius:10px;
 }
 
 .class{
   padding:1rem;
-  background-color: orange;
+  background-color: #EABD8C;
   margin-bottom: 1rem;
   margin-top: 1rem;
   border-radius:10px;
+}
+.class ul{
+  padding-left:2rem;
+  padding-top:0.5rem;
+}
+
+#math{
+  background-color: #ED9121;
+}
+#tech{
+  background-color: #8A3324;
+}
+#logic{
+  background-color: #E89149;
 }
 
