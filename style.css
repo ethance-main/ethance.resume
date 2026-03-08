@@ -317,8 +317,7 @@ body{
 #proj_mb{
   display:grid;
   grid-template-columns: repeat(auto-fit, 250px);
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
 }
 
 .project-card{
