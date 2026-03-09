@@ -241,7 +241,7 @@ body{
   display:grid;
   padding: 1rem;
   background-color: #e9dbc5;
-  color: #2E1D0C
+  color: rgb(249, 238, 219);
 }
 .course_box{
   padding:1rem;
@@ -263,13 +263,22 @@ body{
 }
 
 #math{
-  background-color: #ED9121;
+  background-color: #8F6A3C;
+}
+#m-class{
+  background: #A88861;
 }
 #tech{
-  background-color: #8A3324;
+  background-color: #B37140;
+}
+#t-class{
+  background: #C28D64;
 }
 #logic{
-  background-color: #E89149;
+  background-color: #A06447;
+}
+#l-class{
+  background: #B07D61;
 }
 
 /*About Main Body*/
@@ -300,17 +309,6 @@ body{
 .about-box-border img{
   width:150px;
   height:auto;
-  filter: drop-shadow(0px 0px 10px grey);
-}
-
-#m-class{
- 
-}
-#t-class{
-  
-}
-#l-class{
-  
 }
 
 /*Projects*/
