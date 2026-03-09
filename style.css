@@ -298,6 +298,7 @@ body{
   background-color: lightgray;
   display:flex;
   align-items: center;
+  text-align: center;
   gap: 20px;
   border:1px solid #ccc;
   padding: 10px;
