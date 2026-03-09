@@ -306,7 +306,9 @@ body{
 }
 
 .about-box-border img{
-  width:150px;
+  width: 25%;
+  max-width: 300px;
+  min-width: 150px;
   height:auto;
 }
 
