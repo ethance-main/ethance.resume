@@ -282,13 +282,12 @@ body{
 }
 
 /*About Main Body*/
-#about_body{
-  background-color: lightcyan;
-}
+
 .about-box{
   margin:1rem;
   margin-left:2rem;
   margin-right:2rem;
+  color:rgb(246, 249, 255);
 }
 
 .about-box h3{
@@ -309,6 +308,35 @@ body{
 .about-box-border img{
   width:150px;
   height:auto;
+}
+
+#top{
+  background: #997852;
+}
+#short{
+  background: #627B83;
+}
+#long{
+  background: #5C7581;
+}
+#personality{
+  background: #5B717E;
+}
+#mission{
+  background: #566977;
+}
+#strengths{
+  background: #4E6273;
+}
+#hobbies{
+  background: #49596A;
+}
+
+@media (max-width: 600px){
+  .about-box-border{
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /*Projects*/
