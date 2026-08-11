@@ -38,6 +38,25 @@ body{
   grid-template-rows: minmax(100vh, auto);
 }
 /* Sidebar */
+/* Contact icons */
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact-list i {
+  width: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Skills two-column layout */
+.skills-list {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+
 #main_sidebar {
   background-color: #719081;
   color: white;
@@ -123,7 +142,7 @@ body{
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #098074;
+  color: #87CCC5;
 }
 
 #experience_sidebar h2{
