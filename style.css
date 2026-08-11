@@ -123,7 +123,14 @@ body{
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #87CCC5;
+  color: #098074;
+}
+
+#experience_sidebar h2{
+  color: #815a52;
+}
+#experience_sidebar h3{
+  color: #815a52;
 }
 
 .sidebar ul {
@@ -193,12 +200,13 @@ body{
 }
 
 .About, .Experience, .Courses, .Projects{
-  padding: 3rem;
   border-radius: 25px;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
+  border-radius: 25px;
 }
 
 .About{
