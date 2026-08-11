@@ -33,7 +33,7 @@ body{
 .container {
   display: grid;
   grid-template-columns: 300px 1fr;
-  background: white;
+  background: #cfbfaa;
   min-height: 100vh;
   grid-template-rows: minmax(100vh, auto);
 }
@@ -135,7 +135,7 @@ body{
   font-size: 14px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 768px), (max-height: 500px) {
   .container {
     grid-template-columns: 1fr;
   }
@@ -143,11 +143,18 @@ body{
     position: static;
     height: auto;
     text-align: center;
+    order: 2;
+  }
+  .main_body {
+    order: 1;
   }
 }
 /*Front Page Main Body*/
 .main_body{
   background-color: #cfbfaa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .masterhead{
   color: white;
@@ -171,7 +178,12 @@ body{
 .main_body section{
   text-align: center;
   padding: 5px;
-  
+  flex: 1;
+  display: flex;
+}
+.main_body section a{
+  flex: 1;
+  display: flex;
 }
 .main_body section h2{
   color: white;
@@ -180,26 +192,29 @@ body{
   color: #413A2F;
 }
 
+.About, .Experience, .Courses, .Projects{
+  padding: 3rem;
+  border-radius: 25px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .About{
-  padding: 3rem;
-  background: #789793;
-  border-radius: 25px;
-  
+  background: #789793;  
 }
+
 .Experience{
-  padding: 3rem;
   background: #c9A978;
-  border-radius: 25px;
 }
+
 .Courses{
-  padding: 3rem;
   background: #A27754;
-  border-radius: 25px;
 }
+
 .Projects{
-  padding: 3rem;
   background: #8f6259;
-  border-radius: 25px;
 }
 
 /*Experience Page Main Body*/
@@ -325,9 +340,11 @@ body{
 
 .about-box-border img{
   width: 25%;
-  max-width: 300px;
+  max-width: 500px;
   min-width: 150px;
+  max-height: 500px;
   height:auto;
+  object-fit: contain;
 }
 
 #top{
