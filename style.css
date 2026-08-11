@@ -95,6 +95,14 @@ body{
     display: grid;
     place-items: center;
 }
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
 .sidebar h1 {
   font-size: 24px;
   margin-bottom: 5px;
@@ -133,6 +141,8 @@ body{
     grid-template-columns: 1fr;
   }
   .sidebar {
+    position: static;
+    height: auto;
     text-align: center;
   }
 }
