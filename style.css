@@ -34,7 +34,6 @@ body{
   display: grid;
   grid-template-columns: 300px 1fr;
   background: white;
-  overflow: hidden;
   min-height: 100vh;
   grid-template-rows: minmax(100vh, auto);
 }
