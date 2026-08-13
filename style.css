@@ -161,7 +161,7 @@ body{
   font-size: 14px;
 }
 
-@media(max-width: 768px), (max-height: 500px) {
+@media(max-width: 768px), (max-height: 760px) {
   .container {
     grid-template-columns: 1fr;
   }
