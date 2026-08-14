@@ -410,7 +410,7 @@ body{
 }
 
 /*Projects*/
-#proj_mb{
+#proj_mb {
   padding: 1rem;
 }
 
@@ -457,21 +457,11 @@ body{
   transition: transform 0.3s ease;
 }
 
-.project-banner details[open] .banner-arrow {
+.project-banner details.is-open .banner-arrow {
   transform: rotate(180deg);
 }
 
-.project-banner .banner-content {
-  display: block;
-  padding: 0 1.5rem;
-  color: white;
-  height: 0;
-  overflow: hidden;
-  transition: height 0.35s ease, padding 0.35s ease;
-}
-
 .banner-content {
-  display: block;
   padding: 0 1.5rem;
   color: white;
   height: 0;
@@ -479,6 +469,19 @@ body{
   transition: height 0.35s ease, padding 0.35s ease;
 }
 
+.banner-content p{
+  margin-left: 10px;
+}
+
+.banner-content li{
+  margin-left: 40px;
+}
+
+.tab{ margin-left: 40px;}
+
+.project-banner details.is-open .banner-content {
+  padding: 1.5rem;
+}
 
 .banner-media {
   display: flex;
@@ -488,7 +491,9 @@ body{
 }
 
 .banner-media img {
-  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
   border-radius: 8px;
 }
 
